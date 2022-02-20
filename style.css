@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+
+body{
+    
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand img{
+    width: 20px;
+    padding: 0px 8px;
+}
+nav {
+    font-family: 'Rowdies', cursive;
+   
+}
+nav ul li{
+    padding: 0px 10px;
+}
+nav ul{
+    display: flex;
+    list-style:none ;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url(images/ima.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin: 12px 0;
+}
+#myprogressbar{
+    width:80vw ;
+  
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem {
+    height: 55px;
+    display: flex;
+    background-color: white;
+    width: 136%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    position: relative;
+    left: -302px;
+    top:33px;
+}
+.songitemcontainer{
+    margin-top: 64px;
+}
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 20px;
+}
+.timestamp{
+    margin:0 23px;
+    cursor: pointer;
+}
+.timestamp i{
+ 
+    cursor: pointer;
+}
